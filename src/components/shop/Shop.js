@@ -5,14 +5,18 @@ import Cart from '../cart/Cart';
 const Shop = () => {
     const [products,setProducts]=useState([]);
 
+    const [cart,setCart]=useState([]);
     useEffect(()=>{
         fetch('data.json')
         .then((res)=>res.json())
         .then((data)=>setProducts(data))
     },[])
 
-    const handleAddToCart=()=>{
-        console.log('clicked');
+    const handleAddToCart=(book)=>{
+        // console.log('clicked');
+        let newArray=[...cart,book];
+        setCart(newArray);
+
     }
     return (
         <div>
@@ -22,7 +26,7 @@ const Shop = () => {
                         {
                             products.map((product)=><Book 
                             key={product.id}
-                            Books={product}
+                            book={product}
                             handleAddToCart={handleAddToCart}
                             ></Book>)
                         }
@@ -30,7 +34,7 @@ const Shop = () => {
 
                 </div>
                 <div className="col col-md-3 col-xxl-3 col-xl-3 col-lg-3 border border-warning cart_container">
-                    
+                    <Cart cart={cart}></Cart>
                 </div>
             </div>
         </div>

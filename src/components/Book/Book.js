@@ -1,9 +1,9 @@
 import React from 'react';
 import './Book.css'
 
-const Book = ({Books,handleAddToCart}) => {
+const Book = ({book,handleAddToCart}) => {
     // console.log(Books);
-    const {name,price,ratings,img,quantity,stock}=Books;
+    const {name,price,ratings,img,quantity,stock}=book;
     // console.log(name,price,ratings,img,quantity,stock);
     return (
         <div className='col col-xxl-4 col-xl-4 col-md-6 col-lg-4'>
@@ -16,7 +16,7 @@ const Book = ({Books,handleAddToCart}) => {
                     <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
                 <div className="card-footer">
-                    <button onClick={()=>handleAddToCart(Books)}>ADD TO CART</button>
+                    <button onClick={()=>handleAddToCart(book)}>ADD TO CART</button>
                 </div>
             </div>
         </div>

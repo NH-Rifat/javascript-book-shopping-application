@@ -1,5 +1,7 @@
 import React from 'react';
 import './Book.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 
 const Book = ({book,handleAddToCart}) => {
     // console.log(Books);
@@ -16,7 +18,8 @@ const Book = ({book,handleAddToCart}) => {
                     <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
                 <div className="card-footer">
-                    <button onClick={()=>handleAddToCart(book)}>ADD TO CART</button>
+                    <button onClick={()=>handleAddToCart(book)}>ADD TO CART <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon></button>
+                    
                 </div>
             </div>
         </div>

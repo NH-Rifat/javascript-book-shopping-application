@@ -15,9 +15,19 @@ const Shop = () => {
     },[])
 
     const handleAddToCart=(book)=>{
+        const itemFound=cart.find((item)=>item.id===book.id);
+        if(itemFound){
+            alert('Product Already exist');
+        }
+        else if(!itemFound && cart.length<4){
+            let newArray=[...cart,book];
+            setCart(newArray);
+        }
+        else if(cart.length>=4){
+            alert('Products are many and more');
+        }
         // console.log('clicked');
-        let newArray=[...cart,book];
-        setCart(newArray);
+        
 
     }
 

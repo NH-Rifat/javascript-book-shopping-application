@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import Book from '../Book/Book';
 import Cart from '../cart/Cart';
+import './Shop.css'
 
 const Shop = () => {
     const [products,setProducts]=useState([]);
 
     const [cart,setCart]=useState([]);
+    
     useEffect(()=>{
         fetch('data.json')
         .then((res)=>res.json())
@@ -23,6 +25,7 @@ const Shop = () => {
         let newCart=[];
         setCart(newCart);
     }
+
     return (
         <div>
             <div className="row product-container">
@@ -38,7 +41,7 @@ const Shop = () => {
                     </div>
 
                 </div>
-                <div className="col col-md-3 col-xxl-3 col-xl-3 col-lg-3 border border-warning cart_container">
+                <div className="col col-md-3 col-xxl-3 col-xl-3 col-lg-3 cart_container">
                     <Cart cart={cart} handleReset={handleReset}></Cart>
                 </div>
             </div>

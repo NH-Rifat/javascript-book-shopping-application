@@ -1,0 +1,14 @@
+.cart_container{
+    position: sticky;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 500px){
+    .product-container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .cart_container{
+        position: sticky;
+    }
+}

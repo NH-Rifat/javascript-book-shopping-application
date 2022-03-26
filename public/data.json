@@ -3,42 +3,132 @@
         "id": "623e891e10742bfd78ad2af4",
         "category": "Javascript",
         "name": "Javascript The Definitive Guide",
-        "price": 420,
-        "stock": 20,
-        "ratings": 4,
-        "ratingsCount": 3725,
+        "price": 20,
+        "stock": 10,
+        "ratings": 4.5,
+        "ratingsCount": 1524,
         "img": "https://images-na.ssl-images-amazon.com/images/I/510JjoNTdOL._SX379_BO1,204,203,200_.jpg",
+        "shipping": 12,
+        "quantity": 0
+    },
+    {
+        "id": "623e891e155d39362c3ac4b0",
+        "category": "Javascript",
+        "name": "Eloquent Javascript",
+        "price": 30,
+        "stock": 12,
+        "ratings": 4.6,
+        "ratingsCount": 1829,
+        "img": "https://images-na.ssl-images-amazon.com/images/I/91asIC1fRwL.jpg",
+        "shipping": 10,
+        "quantity": 0
+    },
+    {
+        "id": "623e891e4bc3452b9558f905",
+        "category": "Javascript",
+        "name": "Javascript The Good Parts",
+        "price": 22,
+        "stock": 17,
+        "ratings": 4.7,
+        "ratingsCount": 1324,
+        "img": "https://images-na.ssl-images-amazon.com/images/I/71ip1mxZ8cL.jpg",
+        "shipping": 14,
+        "quantity": 0
+    },
+    {
+        "id": "623e891e45dc83126d219c15",
+        "category": "Javascript",
+        "name": "You don't know JS series",
+        "price": 40,
+        "stock": 17,
+        "ratings": 4.9,
+        "ratingsCount": 1789,
+        "img": "https://stackabuse.s3.amazonaws.com/media/best-javascript-books-for-all-skill-levels-4-6-12.jpg",
+        "shipping": 8,
+        "quantity": 0
+    },
+    {
+        "id": "623e891e5130a499016d79e9",
+        "category": "Javascript",
+        "name": "Javascript Patterns",
+        "price": 18,
+        "stock": 20,
+        "ratings": 4.7,
+        "ratingsCount": 1365,
+        "img": "https://images.squarespace-cdn.com/content/v1/58d20c79725e25b221549193/1534608544225-E3Q9PIMHRG1J3AK8JO5I/images+%288%29.jpg",
         "shipping": 1,
         "quantity": 0
     },
     {
-        "id": "623e891e155d39362c3ac4b0"
+        "id": "623e891e738267dd34a890f9",
+        "category": "Javascript",
+        "name": "Javascript Cook Book",
+        "price": 17,
+        "stock": 14,
+        "ratings": 4.6,
+        "ratingsCount": 2587,
+        "img": "https://images-na.ssl-images-amazon.com/images/I/41B63gsAnIS._SX379_BO1,204,203,200_.jpg",
+        "shipping": 1,
+        "quantity": 0
     },
     {
-        "id": "623e891e4bc3452b9558f905"
+        "id": "623e891e839c3d7adffd03e0",
+        "category": "Javascript",
+        "name": "Effective Javascript",
+        "price": 14,
+        "stock": 35,
+        "ratings": 4.2,
+        "ratingsCount": 1477,
+        "img": "https://www.informit.com/ShowCover.aspx?isbn=0321812182",
+        "shipping": 1,
+        "quantity": 0
     },
     {
-        "id": "623e891e45dc83126d219c15"
+        "id": "623e891e6f2b80e9baf2b0bb",
+        "category": "Javascript",
+        "name": "Scope & Closures",
+        "price": 16,
+        "stock": 208,
+        "ratings": 4.5,
+        "ratingsCount": 3254,
+        "img": "https://images-na.ssl-images-amazon.com/images/I/71DjgMQb3bL.jpg",
+        "shipping": 1,
+        "quantity": 0
     },
     {
-        "id": "623e891e5130a499016d79e9"
+        "id": "623e891ec0618fd3ea462a18",
+        "category": "Javascript",
+        "name": "Learn Javascript Visually",
+        "price": 12,
+        "stock": 789,
+        "ratings": 4.6,
+        "ratingsCount": 2354,
+        "img": "https://images-na.ssl-images-amazon.com/images/I/61HCuZwPljL.jpg",
+        "shipping": 1,
+        "quantity": 0
     },
     {
-        "id": "623e891e738267dd34a890f9"
+        "id": "623e891e561e46291943cdc7",
+        "category": "Javascript",
+        "name": "UP & GOING",
+        "price": 15,
+        "stock": 1265,
+        "ratings": 4.8,
+        "ratingsCount": 3725,
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1457542606l/25136217._SY475_.jpg",
+        "shipping": 1,
+        "quantity": 0
     },
     {
-        "id": "623e891e839c3d7adffd03e0"
-    },
-    {
-        "id": "623e891e6f2b80e9baf2b0bb"
-    },
-    {
-        "id": "623e891ec0618fd3ea462a18"
-    },
-    {
-        "id": "623e891e561e46291943cdc7"
-    },
-    {
-        "id": "623e891ec7e24db9d539f882"
+        "id": "623e891ec7e24db9d539f882",
+        "category": "Javascript",
+        "name": "this & Object Prototype",
+        "price": 11,
+        "stock": 1235,
+        "ratings": 4.8,
+        "ratingsCount": 3215,
+        "img": "https://images-na.ssl-images-amazon.com/images/I/71abuV0QGUL.jpg",
+        "shipping": 1,
+        "quantity": 0
     }
 ]

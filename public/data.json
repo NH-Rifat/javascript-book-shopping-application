@@ -8,6 +8,7 @@
         "stock": 1235,
         "ratings": 4.8,
         "ratingsCount": 3215,
+        "description":"No matter how much experience you have with JavaScript, odds are you don’t fully understand the language. This concise, in-depth guide takes you inside JavaScript’s this structure and object prototypes. ... ",
         "img": "https://images-na.ssl-images-amazon.com/images/I/71abuV0QGUL.jpg",
         "shipping": 1,
         "quantity": 0
@@ -20,6 +21,7 @@
         "stock": 10,
         "ratings": 4.5,
         "ratingsCount": 1524,
+        "description":"Another beginner-friendly JavaScript book is JavaScript: The Definitive Guide. Anyone interested in building powerful web applications must go through the comprehensive JS book. It explores several JS and web platform API features aimed at web application development...",
         "img": "https://images-na.ssl-images-amazon.com/images/I/510JjoNTdOL._SX379_BO1,204,203,200_.jpg",
         "shipping": 12,
         "quantity": 0
@@ -32,6 +34,7 @@
         "stock": 12,
         "ratings": 4.6,
         "ratingsCount": 1829,
+        "description":"Completely revised and updated, this best-selling introduction to programming in JavaScript focuses on writing real applications.JavaScript lies at the heart of almost every modern web application, from social apps like Twitter to browser-based game frameworks like Phaser and Babylon",
         "img": "https://images-na.ssl-images-amazon.com/images/I/91asIC1fRwL.jpg",
         "shipping": 10,
         "quantity": 0
@@ -44,6 +47,7 @@
         "stock": 17,
         "ratings": 4.7,
         "ratingsCount": 1324,
+        "description":"Most programming languages contain good and bad parts, but JavaScript has more than its share of the bad, having been developed and released in a hurry before it could be refined.",
         "img": "https://images-na.ssl-images-amazon.com/images/I/71ip1mxZ8cL.jpg",
         "shipping": 14,
         "quantity": 0
@@ -56,6 +60,7 @@
         "stock": 17,
         "ratings": 4.9,
         "ratingsCount": 1789,
+        "description":"Are you looking for a better way to deeply learn the fundamentals of JavaScript? Look no further!The foundation of all programs is the organization of its variables and functions into different nested scopes",
         "img": "https://stackabuse.s3.amazonaws.com/media/best-javascript-books-for-all-skill-levels-4-6-12.jpg",
         "shipping": 8,
         "quantity": 0
@@ -68,6 +73,7 @@
         "stock": 20,
         "ratings": 4.7,
         "ratingsCount": 1365,
+        "description":"With Learning JavaScript Design Patterns, you’ll learn how to write beautiful, structured, and maintainable JavaScript by applying classical and modern design patterns to the language. ",
         "img": "https://images.squarespace-cdn.com/content/v1/58d20c79725e25b221549193/1534608544225-E3Q9PIMHRG1J3AK8JO5I/images+%288%29.jpg",
         "shipping": 1,
         "quantity": 0
@@ -80,6 +86,7 @@
         "stock": 14,
         "ratings": 4.6,
         "ratingsCount": 2587,
+        "description":"Problem solving with JavaScript is a lot trickier now that its use has expanded considerably in size, scope, and complexity. This cookbook has your back, with recipes for common tasks across the JavaScript world, whether you’re working in the browser, the server, or a mobile environment.",
         "img": "https://images-na.ssl-images-amazon.com/images/I/41B63gsAnIS._SX379_BO1,204,203,200_.jpg",
         "shipping": 1,
         "quantity": 0
@@ -92,6 +99,7 @@
         "stock": 35,
         "ratings": 4.2,
         "ratingsCount": 1477,
+        "description":"It's uncommon to have a programming language wonk who can speak in such comfortable and friendly language as David does. His walk through the syntax and semantics of JavaScript is both charming and hugely insightful; reminders of gotchas complement realistic use cases, paced at a comfortable curve.",
         "img": "https://www.informit.com/ShowCover.aspx?isbn=0321812182",
         "shipping": 1,
         "quantity": 0
@@ -104,6 +112,7 @@
         "stock": 208,
         "ratings": 4.5,
         "ratingsCount": 3254,
+        "description":"Are you looking for a better way to deeply learn the fundamentals of JavaScript? Look no further!The foundation of all programs is the organization of its variables and functions into different nested scopes.",
         "img": "https://images-na.ssl-images-amazon.com/images/I/71DjgMQb3bL.jpg",
         "shipping": 1,
         "quantity": 0
@@ -116,6 +125,7 @@
         "stock": 789,
         "ratings": 4.6,
         "ratingsCount": 2354,
+        "description":"Beautifully Illustrated book that teaches javascript fundamentals trough metaphors, analogies and easy step-by-step exercises. Visual learners retain information very differently than their left brained counter-parts, and thus benefit from different approaches. ",
         "img": "https://images-na.ssl-images-amazon.com/images/I/61HCuZwPljL.jpg",
         "shipping": 1,
         "quantity": 0
@@ -128,6 +138,7 @@
         "stock": 1265,
         "ratings": 4.8,
         "ratingsCount": 3725,
+        "description":"It’s easy to learn parts of JavaScript, but much harder to learn it completely—or even sufficiently—whether you’re new to the language or have used it for years.",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1457542606l/25136217._SY475_.jpg",
         "shipping": 1,
         "quantity": 0

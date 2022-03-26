@@ -32,6 +32,7 @@ const Cart = ({cart,handleReset}) => {
                 }
                 </div>
                 <div className="choose_btn">
+                
                     <button onClick={()=>chooseOne(cart)}>CHOOSE 1 FOR ME</button>
                 </div>
                 <div className="choose_book">

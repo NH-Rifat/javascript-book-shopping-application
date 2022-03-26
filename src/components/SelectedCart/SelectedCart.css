@@ -22,3 +22,23 @@
     width: 50px;
 }
 
+
+/* responsive */
+@media only screen and (max-width: 500px){
+    .name p{
+        font-size: 18px;
+        margin-left: 10px;
+    }
+    .img_name .img img{
+        width: 40px;
+    }
+}
+@media only screen and (max-width: 400px){
+    .name p{
+        font-size: 17px;
+        margin-left: 10px;
+    }
+    .img_name .img img{
+        width: 42px;
+    }
+}

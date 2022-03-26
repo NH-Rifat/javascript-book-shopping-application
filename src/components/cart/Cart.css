@@ -3,15 +3,45 @@
     border: none;
     padding: 10px;
     font-size: 18px;
-    background-color: rgb(142, 221, 16);
+    background-color: rgb(188, 240, 164);
+    border-radius: 4px;
+    font-weight: 500;
 }
 .Reset_btn button{
     margin-top: 30px;
     border: none;
     padding: 10px;
     font-size: 18px;
-    background-color: rgb(146, 190, 247);
+    background-color: rgb(176, 207, 248);
+    border-radius: 4px;
+    font-weight: 500;
 }
-.choose_book{
-    
+.cart_main{
+    position: sticky;
+    top: 0px;
+}
+
+
+/* responsive  */
+@media only screen and (max-width: 500px){
+    .choose_btn button{
+        font-size: 15px;
+    }
+    .Reset_btn button{
+        font-size: 15px;
+    }
+    .cart_info h3{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 400px){
+    .choose_btn button{
+        font-size: 12px;
+    }
+    .Reset_btn button{
+        font-size: 12px;
+    }
+    .cart_info h3{
+        font-size: 18px;
+    }
 }

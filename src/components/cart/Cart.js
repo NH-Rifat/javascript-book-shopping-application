@@ -19,7 +19,7 @@ const Cart = ({cart,handleReset}) => {
     // console.log(cartInfo);
     // console.log(choose);
     return (
-        <div>
+        <div className='cart_main'>
         {
             <div className="cart_info">
             <h3>Selected Items: {cart.length}</h3>

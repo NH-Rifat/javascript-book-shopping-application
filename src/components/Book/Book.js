@@ -8,7 +8,7 @@ const Book = ({book,handleAddToCart}) => {
     const {name,price,ratings,img,quantity,stock}=book;
     // console.log(name,price,ratings,img,quantity,stock);
     return (
-        <div className='col col-xxl-4 col-xl-4 col-md-6 col-lg-4'>
+        <div className='col col-xxl-4 col-xl-4 col-md-6 col-lg-4 ps-xxl-5 ps-xl-5 ps-lg-5 items'>
             <div className="card h-100">
                 <div className="img text-center p-4">
                     <img  src={img} className="card-img-top book_img" alt="..."></img>

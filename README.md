@@ -1,10 +1,10 @@
-# Getting Started with Create React App
+# This is a Javascript Book shopping web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Click to see the live link[Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+This is a Book shopping web Application where user can buy all type Javascript related latest Books.By simple clicking user can see how many books he/she selected also in between selected Books he/she can select a random Book by a simple Choose for 1 Button click. On the other hand he/she can Reset All the books Which items are selected to buy. 
 
 ### `npm start`
 

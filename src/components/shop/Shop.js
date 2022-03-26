@@ -18,6 +18,11 @@ const Shop = () => {
         setCart(newArray);
 
     }
+
+    const handleReset=()=>{
+        let newCart=[];
+        setCart(newCart);
+    }
     return (
         <div>
             <div className="row product-container">
@@ -34,7 +39,7 @@ const Shop = () => {
 
                 </div>
                 <div className="col col-md-3 col-xxl-3 col-xl-3 col-lg-3 border border-warning cart_container">
-                    <Cart cart={cart}></Cart>
+                    <Cart cart={cart} handleReset={handleReset}></Cart>
                 </div>
             </div>
         </div>

@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import SelectedCart from '../SelectedCart/SelectedCart';
 
-const Cart = ({cart}) => {
+const Cart = ({cart,handleReset}) => {
     // console.log(cart);
 
     const [choose,setChoose]=useState([]);
-    
+
     const chooseOne=(cart)=>{
         let randomChoose = cart[Math.floor(Math.random()*cart.length)];
         setChoose(randomChoose);
@@ -28,7 +28,7 @@ const Cart = ({cart}) => {
                     <button onClick={()=>chooseOne(cart)}>CHOOSE 1 FOR ME</button>
                 </div>
                 <div className="Reset_btn">
-                    <button>CHOOSE AGAIN</button>
+                    <button onClick={handleReset}>CHOOSE AGAIN</button>
                 </div>
                 {
                     choose?<p>{choose.name}</p>:''

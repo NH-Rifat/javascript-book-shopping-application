@@ -1,0 +1,13 @@
+.footer{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.question-one p{
+    text-align: justify;
+    font-size: 18px;
+}
+.question-two p{
+    text-align: justify;
+    font-size: 18px;
+}
